@@ -1,6 +1,0 @@
-deployer:
-  domain: apps.cluster-6rt44.6rt44.sandbox2654.opentlc.com
-
-# Example: override 3scale namespace
-# threeScale:
-#   namespace: 3scale 
