@@ -1,6 +1,6 @@
 apiVersion: v2
-name: bootstrap
-description: Boostraps LLMAAS
+name: maas-bootstrap
+description: maas bootstrap
 type: application
 version: 0.1.0
 appVersion: "1.0.0"
