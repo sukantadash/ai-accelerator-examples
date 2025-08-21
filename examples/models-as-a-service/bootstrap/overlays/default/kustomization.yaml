@@ -1,13 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-helmGlobals:
-  chartHome: ..
-helmCharts:
-  - name: base
-    version: 0.1.0
-    releaseName: maas-bootstrap
-    valuesFile: ../base/values.yaml
-    valuesInline:
-      deployer:
-        domain: apps.cluster-guid.guid.sandbox.opentlc.com
+resources:
+  - ../../base
