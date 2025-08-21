@@ -12,7 +12,7 @@ spec:
       path: {{ .Values.threeScale.path }}
       helm:
         valueFiles:
-          - $values/3scale/helm-apis-values.yaml
+          - $values/{{ .Values.cmsUpload.contextDir }}/helm-apis-values.yaml
         values: |
           namespace: {{ .Values.threeScale.namespace }}
           operator:
