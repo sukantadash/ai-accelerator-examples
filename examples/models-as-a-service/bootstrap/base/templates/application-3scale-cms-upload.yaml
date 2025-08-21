@@ -19,7 +19,7 @@ spec:
           repo: {{ .Values.cmsUpload.repoURL }}
           ref: {{ .Values.cmsUpload.targetRevision }}
         cms:
-          contextDir: {{ .Values.cmsUpload.path }}/devportal        
+          contextDir: {{ .Values.cmsUpload.contextDir }}    
   destination:
     server: https://kubernetes.default.svc
     namespace: 3scale

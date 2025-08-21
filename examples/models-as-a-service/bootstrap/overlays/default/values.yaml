@@ -16,6 +16,7 @@ cmsUpload:
   repoURL: https://github.com/sukantadash/ai-accelerator-examples
   targetRevision: main
   path: examples/models-as-a-service/3scale-config/cms-upload
+  contextDir: examples/models-as-a-service/devportal
 
 llmaas:
   repoURL: https://github.com/sukantadash/ai-accelerator-examples
